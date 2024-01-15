@@ -1,0 +1,71 @@
+﻿@page
+@model e_Exam.Pages.AdminModel
+@{
+}
+
+
+
+    <style>
+
+
+
+        .admin_control_all {
+            max-width: 98vw;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+
+        h1 {
+            font-size: 40px;
+            margin: 5vh;
+            text-align: center;
+        }
+
+
+        .controls_admin {
+            display: flex;
+            justify-content: center;
+            width: 60%;
+            align-items: center;
+            gap: 5vw;
+            margin: auto;
+        }
+
+
+            .controls_admin div {
+                text-align: center;
+                padding: 10px;
+                background-color: rgb(196, 18, 18);
+                border-radius: 7px;
+                font-weight: 600;
+                font-size: 1.2em;
+            }
+
+            .controls_admin a {
+                text-decoration: none;
+                color:white;
+            }
+
+    </style>
+
+
+    <div class="admin_control_all">
+        <h1>Admin page</h1>
+
+        <div class="controls_admin">
+            <div class="Add_exam_btn">
+                <a href="/Add_Exam">Add New Exam</a>
+            </div>
+            <div class="edix_exam_btn">
+                <a href="Edit_exam_list">Edit Exam </a>
+            </div>
+            <div class="exam_enrolled_students">
+                <a href="Enroll_list">Students list</a>
+            </div>
+        </div>
+    </div>
+

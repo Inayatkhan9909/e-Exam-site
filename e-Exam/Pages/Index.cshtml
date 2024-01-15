@@ -1,0 +1,156 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<style>
+
+
+
+    .all_index {
+        margin: 0;
+        width: 100vw;
+        height:200vh;
+        margin-top: 1vh;
+        background-color: rgb(196, 18, 18);
+    }
+
+
+    .grid_index {
+        background-color: rgba(216, 73, 11, 0.908);
+        width: 80vw;
+        height: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2vw;
+        padding: 1vh;
+        margin: 2vh auto;
+    }
+
+    .exam_index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        height:100%;
+    }
+    
+
+    .description_site {
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome {
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 800;
+    }
+
+    .description_line1 {
+        color: white;
+        width: 100%;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .description_line2 {
+        color: white;
+        width: 100%;
+        font-size: 3.5em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .description_line3 {
+        color: white;
+        width: 100%;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+
+    .enroll-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #3498db;
+        color: #ffffff;
+        margin-bottom: 1vh;
+        border: 2px solid #2980b9;
+        border-radius: 5px;
+         cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+
+        .enroll-btn:hover {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
+
+    .exam_index p {
+        font-size: 1.2em;
+    }
+
+    .exam_index a {
+        text-decoration: none;
+    }
+
+</style>
+
+    <div class="welcome">
+    Welcome to e-Exam
+   </div>
+<div class="all_index">
+    <div class="description_site">
+
+        <div class="description_line1">
+            Competency Written Examinations are now available
+        </div>
+        <div class="description_line2">
+            Online!
+        </div>
+        <div class="description_line3">
+            Do Your Examinations at home
+        </div>
+    </div>
+
+    <div class="grid_index">
+
+        @foreach(var items in Model.examinfolist)
+        {
+             
+         <div>
+          <div class="exam_index" tabindex="@items.Exam_id">
+            <h1>@items.Exam_name</h1>
+            <h4>Exam date : @items.Exam_date</h4>
+            <p>@items.Exam_description</p>
+            <a class="enroll-btn" href="/Enroll">Enroll</a>
+          </div>
+            </div>
+
+        }
+
+
+
+      
+
+    </div>
+
+
+  
+</div>

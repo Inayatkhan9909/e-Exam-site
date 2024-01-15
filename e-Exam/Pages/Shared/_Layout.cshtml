@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - e_Exam</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/e_Exam.styles.css" asp-append-version="true" />
+    <style>
+        .nav_bar {
+            display: flex;
+            width: 90vw;
+            justify-content: space-between;
+        }
+
+        .nav_items ul {
+            display: flex;
+            gap: 2vw;
+            list-style: none;
+            margin-top:1vh;
+        }
+
+            .nav_items ul li a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.3em;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+
+            <div class="title_image">
+                <img src="/images/e-exam_title.png" width="170" alt="e-Exam">
+            </div>
+
+            <div class="nav_items">
+                <ul>
+                    <li><a href="/Index">Index</a></li>
+                    <li><a href="">Form Status</a></li>
+                    <li><a href="">Catagory</a></li>
+                    <li><a href="/Admin">Admin</a></li>
+                    <li><a href="">login</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+    <div class="containe">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - e_Exam - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

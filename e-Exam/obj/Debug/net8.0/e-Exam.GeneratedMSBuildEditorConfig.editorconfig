@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = e_Exam
+build_property.RootNamespace = e_Exam
+build_property.ProjectDir = C:\Users\inaya\OneDrive\Desktop\asp web app\e-Exam\e-Exam\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\inaya\OneDrive\Desktop\asp web app\e-Exam\e-Exam
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Add_Exam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkX0V4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Delete_confirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlX2NvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Delete_exam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlX2V4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Edit_exam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdF9leGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Edit_exam_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdF9leGFtX2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Enroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Enroll_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsX2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/inaya/OneDrive/Desktop/asp web app/e-Exam/e-Exam/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f2gctti7rw

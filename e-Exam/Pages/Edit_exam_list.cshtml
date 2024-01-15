@@ -1,0 +1,91 @@
+﻿@page
+@model e_Exam.Pages.Edit_exam_listModel
+@{
+}
+
+
+
+
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+    .edit-btn, .delete-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 5px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+  
+    .edit-btn {
+        background-color: #4CAF50;
+    }
+
+    
+    .delete-btn {
+        background-color: #f44336;
+    }
+    </style>
+
+
+    <h2>Exam details </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Exam ID</th>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Action</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var items in Model.examlist)
+          {
+            <tr>
+                <td>@items.Exam_id </td>
+                <td>@items.Exam_name </td>
+                <td>@items.Exam_date</td>
+                <td>@items.Exam_description </td>
+
+
+                <td>
+
+                    <a class="edit-btn" href="Edit_exam?Exam_id=@items.Exam_id">Edit</a>
+
+                    
+                    <a href="Delete_exam?Exam_id=@items.Exam_id" class="delete-btn">Delete</a>
+                </td>
+            </tr>
+
+          }
+          
+           
+        </tbody>
+    </table>
+
+
+
+
+
+
+
